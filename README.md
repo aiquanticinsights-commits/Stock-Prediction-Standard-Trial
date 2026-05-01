@@ -17,12 +17,16 @@ The repository includes unified data ingestion, volatility utilities, and FX PIP
 
 ## Project Structure
 
-- `data_ingestion/`
-  - `universal_loader.py` - unified Stocks/Crypto/Forex loader
-  - `fx_pip_correlation.py` - PIP and correlation utilities
-- `simulations/`
-  - `volatility_check.py` - annualized volatility utilities
-  - `integration_example.py` - end-to-end usage examples
+```text
+├── data_ingestion/       # Unified loaders for Stocks, Crypto, and Forex
+├── deep_learning/        # TFT, N-BEATS, and Informer architectures
+├── rl_agents/            # Stable-Baselines3 PPO/DQN environments
+├── sentiment_analysis/   # LLM agents for news and social scraping
+├── simulations/          # Monte Carlo, GARCH, and Black-Litterman
+├── config/               # Global settings for tickers and API keys
+├── requirements.txt      # 2026 dependency stack
+└── main.py               # Central execution script
+```
 
 ## Standardized Data Format
 
