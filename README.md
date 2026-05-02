@@ -45,7 +45,7 @@ All loaders return a `pandas.DataFrame` with:
 
 ## Installation
 
-Use Python 3.10+ recommended.
+Use **Python 3.11+** (required for `pandas` 3.x in `requirements.txt`).
 
 ```bash
 pip install pandas numpy requests yfinance ccxt

@@ -1,5 +1,6 @@
-pandas
-numpy
-requests
-yfinance
-ccxt
+# Pinned from PyPI lookup (May 2026). Upgrade with: pip install -U -r requirements.txt
+pandas==3.0.2
+numpy==2.4.4
+requests==2.33.1
+yfinance==1.3.0
+ccxt==4.5.51
